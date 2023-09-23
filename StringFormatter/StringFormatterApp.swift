@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct StringFormatterApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra("String Modifier", systemImage: "pencil.circle") {
             ContentView()
         }
     }
